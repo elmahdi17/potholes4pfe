@@ -3,38 +3,28 @@ This project made by MAHDI AIT AMGHAR is designed to detect potholes in videos u
 The project processes video input, detects potholes, and overlays the detection on the video. 
 Additionally, it saves the coordinates of detected potholes along with an image for each detection.
 
-Cloning the Repository:
+# Real-Time Pothole Detection
+
+Pothole detection from real-time video stream or images with Python.
+
+YoloV4-Tiny and OpenCV used for this project.
+
+## Installation
+
+- Clone the repository.
+  ```bash
+  git clone https://github.com/elmahdi17/potholes4pfe.git
 
 
-git clone https://github.com/elmahdi17/potholes4pfe.git
 
-
+## Go to the cloned folder and run the code 
+ ```bash
 import os
 os.chdir('/content/potholes4pfe')
 
-cd potholes4pfe
 
-Setting Up Dependencies
-Use the following commands to install the required Python libraries:
-
-
-!pip install geocoder opencv-python
-
-
-Upgrade pip with the mentioned command below.
-Copier le code
-
-!pip install --upgrade pip
+! python video.py 
 
 
 
 
-
-
-
-Usage
-Run the code with the mentioned command below.
-
-
-Copier le code
-! python video.py
