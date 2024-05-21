@@ -8,6 +8,10 @@ Cloning the Repository:
 
 git clone https://github.com/elmahdi17/potholes4pfe.git
 
+
+import os
+os.chdir('/content/potholes4pfe')
+
 cd potholes4pfe
 
 Setting Up Dependencies
