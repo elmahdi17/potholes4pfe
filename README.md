@@ -1,7 +1,5 @@
 Pothole Detection Project
-This project made by MAHDI AIT AMGHAR is designed to detect potholes in videos using the YOLOv4 Tiny object detection model.
-The project processes video input, detects potholes, and overlays the detection on the video. 
-Additionally, it saves the coordinates of detected potholes along with an image for each detection.
+This project made by MAHDI AIT AMGHAR creates a Tkinter application that displays a video feed and detects potholes using a YOLOv4-tiny model. It includes buttons to start the car dashboard and toggle the detection feed, which only activates after the dashboard initialization. When potholes are detected, the application plays a beep sound, with a double beep for large, close potholes. pothole detections are highlighted with yellow rectangles
 
 # Real-Time Pothole Detection
 
@@ -13,17 +11,15 @@ YoloV4-Tiny and OpenCV used for this project.
 
 - Clone the repository.
   ```bash
-  git clone https://github.com/elmahdi17/potholes4pfe.git
+  pip install cv2 , geocoder , numpy , tkinter , pygame 
 
 
 
-## Go to the cloned folder and run the code 
+
+##  run the code 
  ```bash
-import os
-os.chdir('/content/potholes4pfe')
 
-
-! python video.py 
+finalisma.py 
 
 
 
