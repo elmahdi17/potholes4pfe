@@ -19,7 +19,7 @@ YoloV4-Tiny and OpenCV used for this project.
 ##  run the code 
  ```bash
 
-finalisma.py 
+main.py 
 
 
 
